@@ -1,0 +1,3 @@
+rootProject.name='MZKitLiveSDK'
+include ':app'
+include ':MZLiveSDKAAR'
