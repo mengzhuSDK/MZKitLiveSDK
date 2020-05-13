@@ -42,13 +42,4 @@ dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
     api 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
     implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.google.code.gson:gson:2.8.5'
-    implementation 'com.alibaba:fastjson:1.1.52.android'
-    implementation 'com.google.android.exoplayer:exoplayer:r1.5.11'
-    implementation 'com.github.ctiao:DanmakuFlameMaster:0.6.2'
-
-    implementation ('io.socket:socket.io-client:1.0.0') {
-        exclude group: 'org.json', module: 'json'
-    }
-
 }
